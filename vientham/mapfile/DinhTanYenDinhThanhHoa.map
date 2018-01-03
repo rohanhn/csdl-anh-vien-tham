@@ -1,0 +1,67 @@
+LAYER
+	NAME DinhTanYenDinhThanhHoa
+	METADATA
+		"wms_title" "WMS_Layer_DinhTanYenDinhThanhHoa"
+	END
+	TYPE polygon
+	DEBUG on
+	STATUS OFF
+	LABELITEM "DinhTanYenDinhThanhHoa_name"
+	INCLUDE "ConnectionDB.map"
+	DATA "geom from (select gid, geom1, geoom2, geom3, geom4 from DinhTanYenDinhThanhHoa) as tblms_DinhTanYenDinhThanhHoa using unique gid"
+	#DATA DinhTanYenDinhThanhHoa
+	PROJECTION
+		"init=epsg:4326"
+		"proj=utm"
+		"zone=48"
+		"datum=WGS84"
+		"ellps=WGS84"
+		"unit=m"
+		"no_defs"
+	END
+
+	UNITS meters
+	CLASS
+      	NAME "DinhTanYenDinhThanhHoa - active"
+		#EXPRESSION(0)
+      	#MAXSCALEDENOM 20000
+      	STYLE
+        	COLOR 255 255 100
+			# tao ra duong bien cua vung
+        	OUTLINECOLOR 38 98 206
+			#WIDTH 3
+			#SYMBOL 0
+      	END
+	END
+	
+	CLASS
+      	NAME "DinhTanYenDinhThanhHoa - normal"
+      	#MINSCALEDENOM 20000
+	  	STYLE
+        	OUTLINECOLOR 110 110 156
+			#tao mau cho vung
+			COLOR 255 222 200
+      	END
+      	
+      	LABEL
+			POSITION CC
+			FORCE true
+			ALIGN center
+			ANGLE auto
+			#mau cho text nhan
+			COLOR 255 85 255
+			SHADOWCOLOR 222 222 222
+			SHADOWSIZE 2 2
+			TYPE TRUETYPE
+			ENCODING "UTF-8"
+      		FONT Arial-bold
+      		SIZE 12
+			ANTIALIAS TRUE
+			MAXSIZE 9
+			
+			PARTIALS false
+      		MINFEATURESIZE auto
+			BUFFER 4
+      	END # end of label
+	END
+END

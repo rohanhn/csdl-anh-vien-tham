@@ -1,0 +1,618 @@
+<MapWindow version="4.3.2614.20577">
+  <Labels Field="7" Field2="0" Font="Microsoft Sans Serif" Size="8.25" Color="-16777216" Justification="1" UseMinZoomLevel="False" Scaled="False" UseShadows="False" ShadowColor="-1" Offset="0" StandardViewWidth="0" UseLabelCollision="False" RemoveDuplicateLabels="False" xMin="0" yMin="0" xMax="0" yMax="0">
+    <Label X="585874.549233038" Y="2326332.39770585" Rotation="0" Name="Ba Dinh" />
+    <Label X="585188.47244057" Y="2329925.0831361" Rotation="0" Name="Tay Ho" />
+    <Label X="588739.874978632" Y="2325551.6404174" Rotation="0" Name="Hoan Kiem" />
+    <Label X="589172.742186937" Y="2322348.59810399" Rotation="0" Name="Hai Ba Trung" />
+    <Label X="585731.829998775" Y="2324015.36565887" Rotation="0" Name="Dong Da" />
+    <Label X="584714.34699516" Y="2321755.07620505" Rotation="0" Name="Thanh Xuan" />
+    <Label X="582290.032059099" Y="2325679.80365646" Rotation="0" Name="Cau Giay" />
+    <Label X="586093.982255884" Y="2352419.95383492" Rotation="0" Name="Soc Son" />
+    <Label X="587312.833869834" Y="2337444.3904051" Rotation="0" Name="Dong Anh" />
+    <Label X="596828.765018751" Y="2326110.63021618" Rotation="0" Name="Gia Lam" />
+    <Label X="579126.768744324" Y="2327533.79281498" Rotation="0" Name="Tu Lien" />
+    <Label X="588294.514512006" Y="2316468.77531366" Rotation="0" Name="Thanh Tri" />
+    <Label X="671341.031181889" Y="2308829.41782217" Rotation="0" Name="Hong Bang" />
+    <Label X="676970.922387367" Y="2306834.4144387" Rotation="0" Name="Ngo Quyen" />
+    <Label X="674135.229762918" Y="2306062.09893439" Rotation="0" Name="Le Chan" />
+    <Label X="670570.182089611" Y="2301341.50184951" Rotation="0" Name="Kien An" />
+    <Label X="684288.093225392" Y="2291895.82956035" Rotation="0" Name="Do Son Township" />
+    <Label X="674061.741087824" Y="2317403.52920509" Rotation="0" Name="Thuy Nguyen Ward" />
+    <Label X="-1" Y="2307592.79583861" Rotation="0" Name="An Hai" />
+    <Label X="662476.336429215" Y="2301106.77032952" Rotation="0" Name="An Lao" />
+    <Label X="675723.133241971" Y="2295115.60971196" Rotation="0" Name="Kien Thuy" />
+    <Label X="665447.890943058" Y="2289785.55209235" Rotation="0" Name="Tien Lang" />
+    <Label X="655566.387509313" Y="2286838.19693133" Rotation="0" Name="Vinh Bao" />
+    <Label X="708958.615809124" Y="2301539.21316612" Rotation="0" Name="Cat Hai" />
+    <Label X="788417.432248405" Y="2257006.8713511" Rotation="0" Name="Bach Long Vi" />
+    <Label X="580822.265778371" Y="2318580.72069408" Rotation="0" Name="Ha Dong Township" />
+    <Label X="549792.020846881" Y="2332862.58669275" Rotation="0" Name="Son Tay Township" />
+    <Label X="539760.707902122" Y="2338158.74268115" Rotation="0" Name="Ba Vi" />
+    <Label X="560582.501783965" Y="2335051.15910788" Rotation="0" Name="Phuc Tho" />
+    <Label X="570372.08711479" Y="2334810.68883907" Rotation="0" Name="Dan Phuong" />
+    <Label X="558248.404858223" Y="2325676.64649465" Rotation="0" Name="Thach That" />
+    <Label X="573305.898606381" Y="2323988.22124813" Rotation="0" Name="Hoai Duc" />
+    <Label X="563308.806037759" Y="2318788.31195253" Rotation="0" Name="Quoc Oai" />
+    <Label X="568469.747285517" Y="2308504.29838717" Rotation="0" Name="Chuong My" />
+    <Label X="580831.556265977" Y="2307393.38237309" Rotation="0" Name="Thanh Oai" />
+    <Label X="591071.734251432" Y="2305101.30742601" Rotation="0" Name="Thuong Tin" />
+    <Label X="575016.33237254" Y="2287620.81652416" Rotation="0" Name="My Duc" />
+    <Label X="583234.827609137" Y="2290364.26741889" Rotation="0" Name="Ung Hoa" />
+    <Label X="593720.542635875" Y="2293071.28115585" Rotation="0" Name="Phu Xuyen" />
+    <Label X="636458.640903233" Y="2315758.6749101" Rotation="0" Name="Hai Duong City" />
+    <Label X="645401.654514107" Y="2337577.2580109" Rotation="0" Name="Chi Linh" />
+    <Label X="639259.12268291" Y="2323227.005499" Rotation="0" Name="Nam Sach" />
+    <Label X="648920.160593695" Y="2311213.36463882" Rotation="0" Name="Thanh Ha" />
+    <Label X="656716.838069441" Y="2324516.07376294" Rotation="0" Name="Kinh Mon" />
+    <Label X="654737.935699885" Y="2315758.20199747" Rotation="0" Name="Kim Thanh" />
+    <Label X="634243.97938896" Y="2306720.2896718" Rotation="0" Name="Gia Loc" />
+    <Label X="646326.784595025" Y="2301694.40584802" Rotation="0" Name="Tu Ky" />
+    <Label X="626298.327713928" Y="2317598.47931783" Rotation="0" Name="Cam Giang" />
+    <Label X="623608.293468206" Y="2308608.35006098" Rotation="0" Name="Binh Giang" />
+    <Label X="626545.207286837" Y="2298321.58198677" Rotation="0" Name="Thanh Mien" />
+    <Label X="638884.218921543" Y="2294809.25540209" Rotation="0" Name="Ninh Giang" />
+    <Label X="609441.21908371" Y="2285027.84736702" Rotation="0" Name="Hung Yen Township" />
+    <Label X="614362.733788363" Y="2314967.84773295" Rotation="0" Name="My Hao" />
+    <Label X="601217.209591987" Y="2303034.70719814" Rotation="0" Name="Khoai Chau" />
+    <Label X="614786.006140521" Y="2301879.39419079" Rotation="0" Name="An Thi" />
+    <Label X="607653.895854893" Y="2293735.8677441" Rotation="0" Name="Kim Dong" />
+    <Label X="623968.862913207" Y="2290940.85359329" Rotation="0" Name="Phu Cu" />
+    <Label X="616129.027087508" Y="2285924.59449732" Rotation="0" Name="Tien Lu" />
+    <Label X="608313.67094267" Y="2319973.83855829" Rotation="0" Name="Van Lam" />
+    <Label X="606893.799614594" Y="2310428.91506947" Rotation="0" Name="Yen My" />
+    <Label X="598606.458668052" Y="2314924.32706917" Rotation="0" Name="Van Giang" />
+    <Label X="596434.649749977" Y="2270633.29539563" Rotation="0" Name="Phu Ly Township" />
+    <Label X="600608.446903587" Y="2280932.85665159" Rotation="0" Name="Duy Tien" />
+    <Label X="588974.228826751" Y="2274705.78192074" Rotation="0" Name="Kim Bang" />
+    <Label X="613817.200202961" Y="2273788.13324738" Rotation="0" Name="Ly Nhan" />
+    <Label X="596151.589732761" Y="2262602.72925362" Rotation="0" Name="Thanh Lien" />
+    <Label X="607769.663631451" Y="2266667.2461557" Rotation="0" Name="Binh Luc" />
+    <Label X="621964.594619767" Y="2258720.96763474" Rotation="0" Name="Nam Dinh City" />
+    <Label X="614342.940860369" Y="2253212.24673658" Rotation="0" Name="Vu Ban" />
+    <Label X="618317.821116008" Y="2262405.42409414" Rotation="0" Name="My Loc" />
+    <Label X="606944.892847822" Y="2247386.0489024" Rotation="0" Name="Y Yen" />
+    <Label X="626520.303394031" Y="2249430.57295554" Rotation="0" Name="Nam Truc" />
+    <Label X="630384.170937076" Y="2239321.52227988" Rotation="0" Name="Truc Ninh" />
+    <Label X="641492.607230736" Y="2245328.33631949" Rotation="0" Name="Xuan Truong" />
+    <Label X="652298.622749742" Y="2239961.60696264" Rotation="0" Name="Giao Thuy" />
+    <Label X="620365.548736035" Y="2219655.93038648" Rotation="0" Name="Nghia Hung" />
+    <Label X="632697.383559153" Y="2228270.09168073" Rotation="0" Name="Hai Chau" />
+    <Label X="639449.92992285" Y="2261311.90651631" Rotation="0" Name="Thai Binh Township" />
+    <Label X="642025.48134158" Y="2283977.34413256" Rotation="0" Name="Quynh Phu" />
+    <Label X="626316.658803136" Y="2278111.36167336" Rotation="0" Name="Hung Ha" />
+    <Label X="658687.22035101" Y="2272394.72627122" Rotation="0" Name="Thai Thuy" />
+    <Label X="640702.718476182" Y="2271938.63843513" Rotation="0" Name="Dong Hung" />
+    <Label X="633220.658516207" Y="2260115.84478048" Rotation="0" Name="Vu Thu" />
+    <Label X="648719.663003223" Y="2256509.64819136" Rotation="0" Name="Kien Xuong" />
+    <Label X="659118.758851666" Y="2254044.79794999" Rotation="0" Name="Tien Hai" />
+    <Label X="601626.032092137" Y="2239951.97588856" Rotation="0" Name="Ninh Binh Township" />
+    <Label X="593154.044128695" Y="2228990.77990859" Rotation="0" Name="Tam Diep Township" />
+    <Label X="577674.135940652" Y="2243818.60449687" Rotation="0" Name="Nho Quan" />
+    <Label X="589957.013507771" Y="2249468.66132264" Rotation="0" Name="Gia Vien" />
+    <Label X="598157.935631021" Y="2239528.1313081" Rotation="0" Name="Hoa Lu" />
+    <Label X="604076.261567188" Y="2226022.1171942" Rotation="0" Name="Yen Mo" />
+    <Label X="613625.591605216" Y="2232771.0094227" Rotation="0" Name="Yen Khanh" />
+    <Label X="613926.060047941" Y="2218355.40682482" Rotation="0" Name="Kim Son" />
+    <Label X="503621.538128489" Y="2519535.78741977" Rotation="0" Name="Ha Giang Township" />
+    <Label X="527519.113496146" Y="2569845.55144963" Rotation="0" Name="Dong Van" />
+    <Label X="544029.89063662" Y="2558908.5469085" Rotation="0" Name="Meo Vac" />
+    <Label X="519612.557007258" Y="2550166.15864279" Rotation="0" Name="Yen Minh" />
+    <Label X="496612.994889929" Y="2550800.03299052" Rotation="0" Name="Ba" />
+    <Label X="529400.908785145" Y="2515869.87700585" Rotation="0" Name="Bac Me" />
+    <Label X="468135.979405706" Y="2505507.84728561" Rotation="0" Name="Hoang Su Phi" />
+    <Label X="495252.38567401" Y="2516981.23171877" Rotation="0" Name="Vi Xuyen" />
+    <Label X="450576.179410174" Y="2501227.70529988" Rotation="0" Name="Xin Man" />
+    <Label X="481531.40150213" Y="2475582.13906857" Rotation="0" Name="Bac Quang" />
+    <Label X="629529.965478018" Y="2506003.92950218" Rotation="0" Name="Cao Bang Township" />
+    <Label X="561799.313484632" Y="2530465.35431889" Rotation="0" Name="Bao Lac" />
+    <Label X="614243.327681883" Y="2533728.36788928" Rotation="0" Name="Ha Quang" />
+    <Label X="597154.232710769" Y="2523937.58834994" Rotation="0" Name="Thong Nong" />
+    <Label X="635841.344739446" Y="2524354.91996892" Rotation="0" Name="Tra Linh" />
+    <Label X="659621.434280591" Y="2525993.83392053" Rotation="0" Name="Trung Khanh" />
+    <Label X="595717.383378703" Y="2502861.62217033" Rotation="0" Name="Nguyen Binh" />
+    <Label X="623358.190671917" Y="2510199.42979539" Rotation="0" Name="Hoa An" />
+    <Label X="651636.830348469" Y="2503153.6530927" Rotation="0" Name="Hoa" />
+    <Label X="672959.734579631" Y="2512523.03089176" Rotation="0" Name="Ha Lang" />
+    <Label X="636230.228978886" Y="2485489.9908094" Rotation="0" Name="Thach An" />
+    <Label X="395060.842733218" Y="2486523.23546799" Rotation="0" Name="Lao Cai Township" />
+    <Label X="395015.497557552" Y="2475615.75326341" Rotation="0" Name="Cam Duong Township" />
+    <Label X="410899.506676886" Y="2508175.7794098" Rotation="0" Name="Muong Khuong" />
+    <Label X="368106.537972084" Y="2496049.49160041" Rotation="0" Name="Bat Xat" />
+    <Label X="430255.959932237" Y="2488128.96097233" Rotation="0" Name="Bac Ha" />
+    <Label X="411287.970273741" Y="2474408.97029943" Rotation="0" Name="Bao Thang" />
+    <Label X="387642.194629589" Y="2465636.10301667" Rotation="0" Name="Sa Pa" />
+    <Label X="442295.944234381" Y="2463160.21450719" Rotation="0" Name="Bao Yen" />
+    <Label X="374298.63060959" Y="2434937.19722403" Rotation="0" Name="Thanh Uyen" />
+    <Label X="416297.057391719" Y="2438865.93251461" Rotation="0" Name="Van Ban" />
+    <Label X="424437.751378191" Y="2506837.51941318" Rotation="0" Name="Xi Mai Ca" />
+    <Label X="587331.364612663" Y="2447805.14675101" Rotation="0" Name="Bac Kan Township" />
+    <Label X="573048.411129699" Y="2486947.36221237" Rotation="0" Name="Ba Be" />
+    <Label X="603125.705345848" Y="2479554.8858266" Rotation="0" Name="Ngan Son" />
+    <Label X="559184.742301033" Y="2453610.59994482" Rotation="0" Name="Cho Don" />
+    <Label X="612459.235812356" Y="2451484.59409545" Rotation="0" Name="Na Ri" />
+    <Label X="587170.828011526" Y="2455676.2892073" Rotation="0" Name="Bach Thong" />
+    <Label X="587664.750350214" Y="2431133.69945315" Rotation="0" Name="Cho Moi" />
+    <Label X="680188.644314419" Y="2417145.83514225" Rotation="0" Name="Lang Son Township" />
+    <Label X="649268.906106381" Y="2465977.66247925" Rotation="0" Name="Trang Dinh" />
+    <Label X="663567.515917473" Y="2439857.99618871" Rotation="0" Name="Van Lang" />
+    <Label X="635031.080234021" Y="2439662.95150941" Rotation="0" Name="Binh Gia" />
+    <Label X="630843.915729146" Y="2414093.30298744" Rotation="0" Name="Bac Son" />
+    <Label X="658570.131402274" Y="2415733.17258443" Rotation="0" Name="Van Quan" />
+    <Label X="688502.021411763" Y="2421642.52301622" Rotation="0" Name="Cao Loc" />
+    <Label X="701001.936795513" Y="2399686.49367644" Rotation="0" Name="Loc Binh" />
+    <Label X="667290.031648556" Y="2397015.07626795" Rotation="0" Name="Chi Lang" />
+    <Label X="721085.857382726" Y="2383056.06580503" Rotation="0" Name="Dinh Lap" />
+    <Label X="638805.977609667" Y="2384786.59916379" Rotation="0" Name="Huu Lung" />
+    <Label X="522492.144265043" Y="2413983.02046256" Rotation="0" Name="Tuyen Quang Township" />
+    <Label X="536710.350250761" Y="2486197.38206204" Rotation="0" Name="Na Hang" />
+    <Label X="526450.859451038" Y="2455244.25909189" Rotation="0" Name="Chiem Hoa" />
+    <Label X="501747.573596627" Y="2443927.81060108" Rotation="0" Name="Ham Yen" />
+    <Label X="529472.765070762" Y="2418665.41547772" Rotation="0" Name="Yen Son" />
+    <Label X="540161.317592025" Y="2394535.83720515" Rotation="0" Name="Son Duong" />
+    <Label X="489937.511803794" Y="2402454.12863606" Rotation="0" Name="Yen Bai Township" />
+    <Label X="448526.018577952" Y="2388183.32975327" Rotation="0" Name="Nghia Lo Township" />
+    <Label X="471298.409935013" Y="2443673.84592151" Rotation="0" Name="Luc Yen" />
+    <Label X="453862.621107935" Y="2422616.97566737" Rotation="0" Name="Van Yen" />
+    <Label X="409824.39739968" Y="2410407.04830797" Rotation="0" Name="Mu Cang Chai" />
+    <Label X="479228.212091237" Y="2397248.73768351" Rotation="0" Name="Tran Yen" />
+    <Label X="494176.0944816" Y="2418157.41873768" Rotation="0" Name="Yen Binh" />
+    <Label X="460545.656743617" Y="2384903.20698327" Rotation="0" Name="Van Chan" />
+    <Label X="441913.197907888" Y="2377491.21788616" Rotation="0" Name="Tram Tau" />
+    <Label X="583630.006343425" Y="2384286.13900346" Rotation="0" Name="Thai Nguyen City" />
+    <Label X="585157.099457785" Y="2376395.65711535" Rotation="0" Name="Song Cong Township" />
+    <Label X="565060.843828085" Y="2421854.33964581" Rotation="0" Name="Dinh Hoa" />
+    <Label X="607496.234879244" Y="2408655.58058855" Rotation="0" Name="Vo Nhai" />
+    <Label X="575369.313381747" Y="2406847.37491964" Rotation="0" Name="Phu Luong" />
+    <Label X="594025.578033648" Y="2396496.9560198" Rotation="0" Name="Dong Hy" />
+    <Label X="563955.963036937" Y="2391284.38743711" Rotation="0" Name="Dai Tu" />
+    <Label X="600187.580623001" Y="2376641.46747806" Rotation="0" Name="Phu Binh" />
+    <Label X="584098.832895507" Y="2370394.39526964" Rotation="0" Name="Pho Yen" />
+    <Label X="540594.968161918" Y="2358173.52246159" Rotation="0" Name="Viet Tri City" />
+    <Label X="522909.029838425" Y="2368036.99779147" Rotation="0" Name="Phu Tho Township" />
+    <Label X="515888.308250271" Y="2390588.89106044" Rotation="0" Name="Doan Hung" />
+    <Label X="499956.064972162" Y="2385604.68025944" Rotation="0" Name="Ha Hoa" />
+    <Label X="516621.347168516" Y="2374019.78716066" Rotation="0" Name="Thanh Ba" />
+    <Label X="531397.414024637" Y="2371844.44133349" Rotation="0" Name="Phu Ninh" />
+    <Label X="509762.127639777" Y="2366682.67032752" Rotation="0" Name="Song Thao" />
+    <Label X="500778.317279342" Y="2362109.2453811" Rotation="0" Name="Yen Lap" />
+    <Label X="524820.350380479" Y="2354253.34955663" Rotation="0" Name="Tam Nong" />
+    <Label X="508057.545632488" Y="2336307.65682973" Rotation="0" Name="Thanh Son" />
+    <Label X="531196.937759193" Y="2358646.15746237" Rotation="0" Name="Lam Thao" />
+    <Label X="529568.823846584" Y="2337932.36133212" Rotation="0" Name="Thanh Thuy" />
+    <Label X="562178.336824691" Y="2356803.27946882" Rotation="0" Name="Vinh Yen Township" />
+    <Label X="548151.784070806" Y="2371782.3088933" Rotation="0" Name="Lap Thach" />
+    <Label X="-1" Y="2366154.87009447" Rotation="0" Name="Tam Duong" />
+    <Label X="551619.298708063" Y="2348933.62270944" Rotation="0" Name="Vinh Tuong" />
+    <Label X="559826.1150355" Y="2346673.83584333" Rotation="0" Name="Yen Lac" />
+    <Label X="574340.755812465" Y="2349659.23452702" Rotation="0" Name="Me Linh" />
+    <Label X="568405.846045222" Y="2360245.66891849" Rotation="0" Name="Binh Xuyen" />
+    <Label X="623580.132919207" Y="2354647.67162161" Rotation="0" Name="Bac Giang Township" />
+    <Label X="617487.726964216" Y="2379981.28900307" Rotation="0" Name="Yen The" />
+    <Label X="614338.104404184" Y="2365253.35109273" Rotation="0" Name="Tan Yen" />
+    <Label X="671447.638455317" Y="2371583.33764207" Rotation="0" Name="Luc Ngan" />
+    <Label X="600328.554109308" Y="2358273.6383624" Rotation="0" Name="Hiep Hoa" />
+    <Label X="629904.346284561" Y="2363872.57241293" Rotation="0" Name="Lang Giang" />
+    <Label X="692502.505360006" Y="2355762.62799561" Rotation="0" Name="Son Dong" />
+    <Label X="651860.87453271" Y="2354026.28806387" Rotation="0" Name="Luc Nam" />
+    <Label X="613085.867181686" Y="2352729.36961859" Rotation="0" Name="Viet Yen" />
+    <Label X="629176.125575123" Y="2346295.99844975" Rotation="0" Name="Yen Dung" />
+    <Label X="611121.740005873" Y="2342236.32653676" Rotation="0" Name="Bac Ninh Township" />
+    <Label X="602394.223494726" Y="2345163.02941073" Rotation="0" Name="Yen Phong" />
+    <Label X="621384.365952572" Y="2338366.25553691" Rotation="0" Name="Que Vo" />
+    <Label X="607670.339395934" Y="2335407.67531227" Rotation="0" Name="Tien Du" />
+    <Label X="611840.456917448" Y="2326590.34269782" Rotation="0" Name="Thuan Thanh" />
+    <Label X="627428.758533175" Y="2325123.21950463" Rotation="0" Name="Luong Tai" />
+    <Label X="599686.948300086" Y="2336459.4716867" Rotation="0" Name="Tu Son" />
+    <Label X="625462.477610021" Y="2330898.26252581" Rotation="0" Name="Gia Binh" />
+    <Label X="-1" Y="2311198.37250603" Rotation="0" Name="Ha Long City" />
+    <Label X="739198.005982346" Y="2333762.0537869" Rotation="0" Name="Cam Pha Township" />
+    <Label X="683113.088228851" Y="2331950.17030742" Rotation="0" Name="Uong Bi Township" />
+    <Label X="752826.779163257" Y="2384713.87851391" Rotation="0" Name="Binh Lieu" />
+    <Label X="-1" Y="2397039.94239417" Rotation="0" Name="Mong Cai Township" />
+    <Label X="772807.286736798" Y="2371895.38080939" Rotation="0" Name="Quang Ha" />
+    <Label X="745709.889216155" Y="2365478.03825456" Rotation="0" Name="Tien Yen" />
+    <Label X="725813.82906554" Y="2353798.26694819" Rotation="0" Name="Ba Che" />
+    <Label X="-1" Y="2355090.49022547" Rotation="0" Name="Van Don" />
+    <Label X="710444.211850172" Y="2334537.13634078" Rotation="0" Name="Hoanh Bo" />
+    <Label X="664710.093652428" Y="2335275.97882181" Rotation="0" Name="Dong Trieu" />
+    <Label X="-1" Y="2317490.14257787" Rotation="0" Name="Co To" />
+    <Label X="690772.123784863" Y="2315179.56175119" Rotation="0" Name="Yen Hung" />
+    <Label X="298052.139199905" Y="2368695.31686748" Rotation="0" Name="D.Bien Phu Township" />
+    <Label X="308961.340506519" Y="2441701.90363358" Rotation="0" Name="Lai Chau Township" />
+    <Label X="254934.623964145" Y="2474011.6345119" Rotation="0" Name="Muong Te" />
+    <Label X="343283.919667808" Y="2486978.02234762" Rotation="0" Name="Phong Tho" />
+    <Label X="325340.602546993" Y="2467094.12494657" Rotation="0" Name="Sin Ho" />
+    <Label X="291984.247384331" Y="2425434.02229182" Rotation="0" Name="Muong Lay" />
+    <Label X="331875.724034479" Y="2429998.59302901" Rotation="0" Name="Tua Chua" />
+    <Label X="329886.265562124" Y="2392436.92045201" Rotation="0" Name="Tuan Giao" />
+    <Label X="298270.535239508" Y="2351308.64804902" Rotation="0" Name="D.Bien" />
+    <Label X="319353.191720729" Y="2349828.40384289" Rotation="0" Name="D.Bien Dong" />
+    <Label X="388632.103841782" Y="2359220.588025" Rotation="0" Name="Son La Township" />
+    <Label X="359171.170392808" Y="2414193.88533036" Rotation="0" Name="Quynh Nhai" />
+    <Label X="403718.003760371" Y="2382100.36358857" Rotation="0" Name="Muong La" />
+    <Label X="361122.559623004" Y="2372155.26098418" Rotation="0" Name="Thuan Chau" />
+    <Label X="436650.569264927" Y="2349550.33020758" Rotation="0" Name="Bac Yen" />
+    <Label X="467787.189858059" Y="2344827.5512662" Rotation="0" Name="Phu Yen" />
+    <Label X="397687.412279061" Y="2341099.79694055" Rotation="0" Name="Mai Son" />
+    <Label X="355281.90147242" Y="2321067.78201449" Rotation="0" Name="Song Ma" />
+    <Label X="430275.179206166" Y="2321770.56766197" Rotation="0" Name="Yen Chau" />
+    <Label X="470618.888251847" Y="2304645.16264541" Rotation="0" Name="Moc Chau" />
+    <Label X="534385.433566219" Y="2303367.33198137" Rotation="0" Name="Hoa Binh Township" />
+    <Label X="509377.729215043" Y="2311566.76028059" Rotation="0" Name="Da Bac" />
+    <Label X="501261.083464301" Y="2286710.07726615" Rotation="0" Name="Mai Chau" />
+    <Label X="-1" Y="2298850.47510225" Rotation="0" Name="Ky Son" />
+    <Label X="552862.814227936" Y="2309413.36295112" Rotation="0" Name="Luong Son" />
+    <Label X="556382.803949775" Y="2286651.0902142" Rotation="0" Name="Kim Boi" />
+    <Label X="524575.884746554" Y="2278474.99070661" Rotation="0" Name="Tan Lac" />
+    <Label X="546000.427414748" Y="2264998.05317744" Rotation="0" Name="Lac Son" />
+    <Label X="577189.09136092" Y="2266283.46213171" Rotation="0" Name="Lac Thuy" />
+    <Label X="565402.55658144" Y="2258280.71847613" Rotation="0" Name="Yen Thuy" />
+    <Label X="582355.141397486" Y="2190128.92748153" Rotation="0" Name="Thanh Hoa City" />
+    <Label X="592058.353702061" Y="2221206.26247965" Rotation="0" Name="Bim Son Township" />
+    <Label X="594564.596897052" Y="2184648.20766836" Rotation="0" Name="Sam Son Township" />
+    <Label X="460489.48100379" Y="2267234.44460613" Rotation="0" Name="Muong Lat" />
+    <Label X="494419.129843836" Y="2262986.07610093" Rotation="0" Name="Quan Hoa" />
+    <Label X="483846.799006334" Y="2241450.1992418" Rotation="0" Name="Quan Son" />
+    <Label X="524197.627134286" Y="2250834.44439369" Rotation="0" Name="Ba Thuoc" />
+    <Label X="548246.332662022" Y="2233554.2261509" Rotation="0" Name="Cam Thuy" />
+    <Label X="514994.500477977" Y="2227209.56978786" Rotation="0" Name="Lang Chanh" />
+    <Label X="564952.065201091" Y="2234927.24161158" Rotation="0" Name="Thach Thanh" />
+    <Label X="538825.156317428" Y="2218341.83876917" Rotation="0" Name="Ngoc Lac" />
+    <Label X="521318.221261634" Y="2200312.95532007" Rotation="0" Name="Thuong Xuan" />
+    <Label X="539076.788209979" Y="2169057.38409474" Rotation="0" Name="Nhu Xuan" />
+    <Label X="558736.806662888" Y="2165645.80535125" Rotation="0" Name="Nhu Thanh" />
+    <Label X="569397.493833131" Y="2216717.33769515" Rotation="0" Name="Vinh Loc" />
+    <Label X="587147.529018198" Y="2215995.62428848" Rotation="0" Name="Ha Trung" />
+    <Label X="603123.928317577" Y="2213411.65972433" Rotation="0" Name="Nga Son" />
+    <Label X="564306.563494614" Y="2211401.61599429" Rotation="0" Name="Yen Dinh" />
+    <Label X="550447.990745282" Y="2203492.02249206" Rotation="0" Name="Tho Xuan" />
+    <Label X="592858.257358715" Y="2204443.00150317" Rotation="0" Name="Hau Loc" />
+    <Label X="571072.113665002" Y="2200201.37154015" Rotation="0" Name="Thieu Hoa" />
+    <Label X="589447.790057606" Y="2195505.826756" Rotation="0" Name="Hoang Hoa" />
+    <Label X="574883.63793103" Y="2189761.21991825" Rotation="0" Name="Dong Son" />
+    <Label X="559869.944423492" Y="2190459.52703737" Rotation="0" Name="Trieu Son" />
+    <Label X="583303.878553505" Y="2178123.38423631" Rotation="0" Name="Quang Xuong" />
+    <Label X="570900.630714548" Y="2169389.0697211" Rotation="0" Name="Nong Cong" />
+    <Label X="577419.763063302" Y="2149365.96760188" Rotation="0" Name="Tinh Gia" />
+    <Label X="573348.869077931" Y="2065992.48963002" Rotation="0" Name="Vinh City" />
+    <Label X="576434.825559529" Y="2077608.5285721" Rotation="0" Name="Cua Lo Township" />
+    <Label X="488778.352054874" Y="2178883.42167549" Rotation="0" Name="Que Phong" />
+    <Label X="508547.232216607" Y="2160619.77542282" Rotation="0" Name="Quy Chau" />
+    <Label X="417219.420367484" Y="2148836.85485083" Rotation="0" Name="Ky Son" />
+    <Label X="516353.999860154" Y="2136432.37298416" Rotation="0" Name="Quy Hop" />
+    <Label X="544995.905562122" Y="2139052.48512995" Rotation="0" Name="Nghia Dan" />
+    <Label X="454493.15546685" Y="2134381.81067696" Rotation="0" Name="Tuong Duong" />
+    <Label X="566495.129430579" Y="2125737.59263566" Rotation="0" Name="Quynh Luu" />
+    <Label X="523024.617910639" Y="2113094.33392662" Rotation="0" Name="Tan Ky" />
+    <Label X="480876.435843698" Y="2103441.50134992" Rotation="0" Name="Con Cuong" />
+    <Label X="546462.582344936" Y="2103360.05261301" Rotation="0" Name="Yen Thanh" />
+    <Label X="560484.950066415" Y="2101136.4840168" Rotation="0" Name="Dien Chau" />
+    <Label X="506011.473168618" Y="2095471.94139792" Rotation="0" Name="Anh Son" />
+    <Label X="536279.091323937" Y="2089603.80773195" Rotation="0" Name="Do Luong" />
+    <Label X="525092.162359504" Y="2072117.00487254" Rotation="0" Name="Thanh Chuong" />
+    <Label X="564240.39046549" Y="2079342.65204862" Rotation="0" Name="Nghi Loc" />
+    <Label X="554979.686789737" Y="2065483.57022193" Rotation="0" Name="Nam Dan" />
+    <Label X="565794.452167707" Y="2064037.22591227" Rotation="0" Name="Hung Nguyen" />
+    <Label X="594594.012687395" Y="2028456.59165014" Rotation="0" Name="Ha Tinh Township" />
+    <Label X="574816.5145043" Y="2049037.41304499" Rotation="0" Name="Hong Linh Township" />
+    <Label X="580790.423907923" Y="2058518.81154456" Rotation="0" Name="Nghi Xuan" />
+    <Label X="561872.912382028" Y="2042043.44818973" Rotation="0" Name="Duc Tho" />
+    <Label X="532866.708335053" Y="2042833.84563262" Rotation="0" Name="Huong Son" />
+    <Label X="579845.372667328" Y="2040051.32885559" Rotation="0" Name="Can Loc" />
+    <Label X="-1" Y="2029056.29383552" Rotation="0" Name="Thach Ha" />
+    <Label X="606370.194135885" Y="2011991.12316014" Rotation="0" Name="Cam Xuyen" />
+    <Label X="564596.162934501" Y="2013326.84737309" Rotation="0" Name="Huong Khe" />
+    <Label X="630228.739945977" Y="1997019.41368778" Rotation="0" Name="Ky Anh" />
+    <Label X="667477.43853417" Y="1929656.36644366" Rotation="0" Name="Dong Hoi Township" />
+    <Label X="607281.074443201" Y="1980407.43371285" Rotation="0" Name="Tuyen Hoa" />
+    <Label X="594256.702776256" Y="1963696.8352855" Rotation="0" Name="Minh Hoa" />
+    <Label X="645134.49481602" Y="1972448.42058444" Rotation="0" Name="Quang Trach" />
+    <Label X="635538.530054829" Y="1937784.87190711" Rotation="0" Name="Bo Trach" />
+    <Label X="659489.492402467" Y="1910500.594445" Rotation="0" Name="Quang Ninh" />
+    <Label X="681705.632070805" Y="1892782.36692785" Rotation="0" Name="Le Thuy" />
+    <Label X="722566.636668074" Y="1858739.57576477" Rotation="0" Name="Dong Ha Township" />
+    <Label X="733316.582464654" Y="1852664.58795422" Rotation="0" Name="Quang Tri Township" />
+    <Label X="705583.455101519" Y="1882230.56449318" Rotation="0" Name="Vinh Linh" />
+    <Label X="711082.829501459" Y="1870003.01074345" Rotation="0" Name="Gio Linh" />
+    <Label X="709253.588753211" Y="1857442.5836115" Rotation="0" Name="Cam Lo" />
+    <Label X="729297.321397421" Y="1855952.47619248" Rotation="0" Name="Trieu Phong" />
+    <Label X="738323.407476997" Y="1844822.1780268" Rotation="0" Name="Hai Lang" />
+    <Label X="678728.710678524" Y="1847841.83995078" Rotation="0" Name="Huong Hoa" />
+    <Label X="708672.332337617" Y="1831008.64798456" Rotation="0" Name="Da Krong" />
+    <Label X="774997.281921176" Y="1821343.61385862" Rotation="0" Name="Hue City" />
+    <Label X="745125.995363535" Y="1827968.19505774" Rotation="0" Name="Phong Dien" />
+    <Label X="766913.219035412" Y="1835788.01953939" Rotation="0" Name="Quang Dien" />
+    <Label X="765019.501906906" Y="1814927.71239632" Rotation="0" Name="Huong Tra" />
+    <Label X="790125.69477993" Y="1822082.99423429" Rotation="0" Name="Phu Vang" />
+    <Label X="779789.791110926" Y="1805331.37214847" Rotation="0" Name="Huong Thuy" />
+    <Label X="808329.418454516" Y="1801618.37111142" Rotation="0" Name="Phu Loc" />
+    <Label X="748186.193274428" Y="1794685.43698845" Rotation="0" Name="A Luoi" />
+    <Label X="787295.924285971" Y="1784130.71477925" Rotation="0" Name="Nam Dong" />
+    <Label X="843797.697792371" Y="1776702.49211379" Rotation="0" Name="Hai Chau" />
+    <Label X="-1" Y="1778316.61021769" Rotation="0" Name="Thanh Khe" />
+    <Label X="849365.635610238" Y="1784294.62869476" Rotation="0" Name="Son Tra" />
+    <Label X="847794.541312205" Y="1771366.54313252" Rotation="0" Name="Ngu Hanh Son" />
+    <Label X="-1" Y="1785014.59579937" Rotation="0" Name="Lien Chieu" />
+    <Label X="823334.748485967" Y="1778434.26695643" Rotation="0" Name="Hoa Vang" />
+    <Label X="868655.555817394" Y="1720854.7518091" Rotation="0" Name="Tam Ky Township" />
+    <Label X="-1" Y="1758076.50065101" Rotation="0" Name="Hoi An Township" />
+    <Label X="778597.577117633" Y="1759225.34321797" Rotation="0" Name="Hien" />
+    <Label X="818712.730544668" Y="1753934.85741729" Rotation="0" Name="Dai Loc" />
+    <Label X="845158.321971049" Y="1760728.35544798" Rotation="0" Name="Dien Ban" />
+    <Label X="843054.257486283" Y="1749383.96914137" Rotation="0" Name="Duy Xuyen" />
+    <Label X="777785.471026117" Y="1729759.23619422" Rotation="0" Name="Nam Giang" />
+    <Label X="861615.429069078" Y="1737584.41590686" Rotation="0" Name="Thang Binh" />
+    <Label X="829942.574042212" Y="1735944.99161776" Rotation="0" Name="Que Son" />
+    <Label X="832082.102715244" Y="1719796.7935497" Rotation="0" Name="Hiep Duc" />
+    <Label X="850796.92962508" Y="1713769.26168975" Rotation="0" Name="Tien Phuoc" />
+    <Label X="804537.316568229" Y="1704434.31979434" Rotation="0" Name="Phuoc Son" />
+    <Label X="883276.780203309" Y="1709372.79254311" Rotation="0" Name="Nui Thanh" />
+    <Label X="837945.814899964" Y="1685341.96181594" Rotation="0" Name="Tra My" />
+    <Label X="909455.723826151" Y="1674880.33936637" Rotation="0" Name="Quang Ngai Township" />
+    <Label X="942000.744754798" Y="1704986.95050871" Rotation="0" Name="Ly Son" />
+    <Label X="903402.94873052" Y="1695510.53251853" Rotation="0" Name="Binh Son" />
+    <Label X="870133.925750475" Y="1684284.8423045" Rotation="0" Name="Tra Bong" />
+    <Label X="902504.311003837" Y="1682786.35237777" Rotation="0" Name="Son Tinh" />
+    <Label X="861168.42649904" Y="1657752.72587956" Rotation="0" Name="Son Tay" />
+    <Label X="878690.808143843" Y="1659652.93552123" Rotation="0" Name="Son Ha" />
+    <Label X="903688.608560888" Y="1672383.50410398" Rotation="0" Name="Tu Nghia" />
+    <Label X="906139.953697524" Y="1659694.04848038" Rotation="0" Name="Nghia Hanh" />
+    <Label X="895302.228092327" Y="1655874.02067161" Rotation="0" Name="Minh Long" />
+    <Label X="917401.41059577" Y="1657490.86354879" Rotation="0" Name="Mo Duc" />
+    <Label X="926161.470086955" Y="1637989.83301488" Rotation="0" Name="Duc Pho" />
+    <Label X="897915.668042348" Y="1631291.68107323" Rotation="0" Name="Ba To" />
+    <Label X="956173.801118749" Y="1527044.53403979" Rotation="0" Name="Qui Nhon City" />
+    <Label X="909377.88085266" Y="1612327.30505783" Rotation="0" Name="An Lao" />
+    <Label X="933954.964765135" Y="1607735.71101275" Rotation="0" Name="Hoai Nhon" />
+    <Label X="920531.35802152" Y="1589597.20563858" Rotation="0" Name="Hoai an" />
+    <Label X="941252.689162349" Y="1576682.29217806" Rotation="0" Name="Phu My" />
+    <Label X="903790.482753578" Y="1576866.11362954" Rotation="0" Name="Vinh Thanh" />
+    <Label X="940891.677507747" Y="1557019.74072136" Rotation="0" Name="Phu Cat" />
+    <Label X="919586.069283485" Y="1544212.76115137" Rotation="0" Name="Tay Son" />
+    <Label X="939172.814491344" Y="1537041.67856577" Rotation="0" Name="An Nhon" />
+    <Label X="-1" Y="1529369.01822561" Rotation="0" Name="Tuy Phuoc" />
+    <Label X="928744.54127767" Y="1514583.57845765" Rotation="0" Name="Van Canh" />
+    <Label X="955354.245860948" Y="1449571.68223451" Rotation="0" Name="Tuy Hoa Township" />
+    <Label X="929323.304447311" Y="1487884.59872364" Rotation="0" Name="Dong Xuan" />
+    <Label X="954446.333898813" Y="1498937.38494971" Rotation="0" Name="Song Cau" />
+    <Label X="956717.383886793" Y="1468795.95599818" Rotation="0" Name="Tuy An" />
+    <Label X="929367.587121015" Y="1458495.93559694" Rotation="0" Name="Son Hoa" />
+    <Label X="958737.150717286" Y="1432919.58787063" Rotation="0" Name="Tuy Hoa" />
+    <Label X="924320.159886364" Y="1431672.8976732" Rotation="0" Name="Song Hinh" />
+    <Label X="-1" Y="1358282.25753102" Rotation="0" Name="Nha Trang City" />
+    <Label X="-1" Y="1407532.30677944" Rotation="0" Name="Van Ninh" />
+    <Label X="941864.457654186" Y="1389901.79307767" Rotation="0" Name="Ninh Hoa" />
+    <Label X="939252.09361271" Y="1355047.1086027" Rotation="0" Name="Dien Khanh" />
+    <Label X="949591.09249422" Y="1328354.88864253" Rotation="0" Name="Cam Ranh" />
+    <Label X="917880.598830609" Y="1363994.76278171" Rotation="0" Name="Khanh Vinh" />
+    <Label X="923612.867120517" Y="1333851.27108946" Rotation="0" Name="Khanh Son" />
+    <Label X="821128.699396175" Y="1587570.3119347" Rotation="0" Name="Kon Tum Township" />
+    <Label X="792839.475562725" Y="1670232.72818161" Rotation="0" Name="Dak Glei" />
+    <Label X="784618.674912673" Y="1629054.84823593" Rotation="0" Name="Ngoc Hoi" />
+    <Label X="812426.946414042" Y="1640301.88338127" Rotation="0" Name="Dak To" />
+    <Label X="851680.164283268" Y="1625316.37689763" Rotation="0" Name="Kon Plong" />
+    <Label X="822389.867870251" Y="1616398.21435472" Rotation="0" Name="Dak Ha" />
+    <Label X="781336.390474783" Y="1581475.33929845" Rotation="0" Name="Sa Thay" />
+    <Label X="823556.392801196" Y="1545071.11486814" Rotation="0" Name="Pleiku Township" />
+    <Label X="877720.120490344" Y="1584469.34723329" Rotation="0" Name="KBang" />
+    <Label X="850659.963241006" Y="1551590.49126397" Rotation="0" Name="Mang Yang" />
+    <Label X="818990.346662175" Y="1571232.91080598" Rotation="0" Name="Chu Pah" />
+    <Label X="795541.857218059" Y="1546689.34202554" Rotation="0" Name="Ia Grai" />
+    <Label X="892110.754899942" Y="1545553.23300228" Rotation="0" Name="An Khe" />
+    <Label X="888464.815144111" Y="1522376.3009551" Rotation="0" Name="Kong Chro" />
+    <Label X="787232.43066254" Y="1525058.92736123" Rotation="0" Name="Duc Co" />
+    <Label X="804238.944633218" Y="1504860.6395011" Rotation="0" Name="Chu Prong" />
+    <Label X="835036.135822656" Y="1505215.98501345" Rotation="0" Name="Chu Se" />
+    <Label X="872660.482261077" Y="1493411.66234313" Rotation="0" Name="Ayun Pa" />
+    <Label X="896377.618979989" Y="1465766.813415" Rotation="0" Name="Krong Pa" />
+    <Label X="832174.791506693" Y="1403149.96255018" Rotation="0" Name="Buon Ma Thuot City" />
+    <Label X="844131.870593893" Y="1465957.06196067" Rotation="0" Name="Ea H'leo" />
+    <Label X="803229.79833708" Y="1459509.64568311" Rotation="0" Name="Ea Sup" />
+    <Label X="868073.013602498" Y="1441442.93791159" Rotation="0" Name="Krong Nang" />
+    <Label X="851290.254568562" Y="1433568.9192088" Rotation="0" Name="Krong Buk" />
+    <Label X="796079.185455274" Y="1427843.75709439" Rotation="0" Name="Buon Don" />
+    <Label X="833532.042527316" Y="1426421.23962822" Rotation="0" Name="Cu M'gar" />
+    <Label X="886376.101888304" Y="1418111.0170058" Rotation="0" Name="Ea Kar" />
+    <Label X="911288.86980144" Y="1408788.49685333" Rotation="0" Name="M'Drak" />
+    <Label X="863317.029950359" Y="1405029.28293758" Rotation="0" Name="Krong Pac" />
+    <Label X="802617.029411866" Y="1403574.68519812" Rotation="0" Name="Cu Jut" />
+    <Label X="837367.822400415" Y="1387508.35113677" Rotation="0" Name="Krong A Na" />
+    <Label X="880570.169699183" Y="1380847.07562914" Rotation="0" Name="Krong Bong" />
+    <Label X="788216.927899615" Y="1376269.93904501" Rotation="0" Name="Dak Mil" />
+    <Label X="815379.341212971" Y="1367977.042776" Rotation="0" Name="Krong No" />
+    <Label X="853352.064875339" Y="1364986.70559085" Rotation="0" Name="Lak" />
+    <Label X="764252.302651649" Y="1333807.10051756" Rotation="0" Name="Dak R'Lap" />
+    <Label X="807814.131658896" Y="1334042.11966358" Rotation="0" Name="Dak Nong" />
+    <Label X="685571.556599262" Y="1191798.82185985" Rotation="0" Name="1" />
+    <Label X="692114.250869786" Y="1192206.12064949" Rotation="0" Name="2" />
+    <Label X="683996.749547521" Y="1192365.88249248" Rotation="0" Name="3" />
+    <Label X="686476.646055016" Y="1189823.26018306" Rotation="0" Name="4" />
+    <Label X="682608.057869938" Y="1189408.39955335" Rotation="0" Name="5" />
+    <Label X="678817.025131187" Y="1188362.10492562" Rotation="0" Name="6" />
+    <Label X="689136.349336182" Y="1187369.74120852" Rotation="0" Name="7" />
+    <Label X="-1" Y="1186081.40701529" Rotation="0" Name="8" />
+    <Label X="699067.098138799" Y="1197238.90245243" Rotation="0" Name="9" />
+    <Label X="682427.40428448" Y="1191307.46489567" Rotation="0" Name="10" />
+    <Label X="680170.940233657" Y="1190388.50079479" Rotation="0" Name="11" />
+    <Label X="680962.067032471" Y="1201549.14497698" Rotation="0" Name="12" />
+    <Label X="682261.423620429" Y="1198600.59059112" Rotation="0" Name="Go Vap" />
+    <Label X="679524.285281075" Y="1194579.07990891" Rotation="0" Name="Tan Binh" />
+    <Label X="687640.79495174" Y="1195804.44479435" Rotation="0" Name="Binh Thanh" />
+    <Label X="683480.374739338" Y="1194394.49816398" Rotation="0" Name="Phu Nhuan" />
+    <Label X="690202.871434989" Y="1200645.40164681" Rotation="0" Name="Thu Duc" />
+    <Label X="664996.038011724" Y="1217489.49486241" Rotation="0" Name="Cu Chi" />
+    <Label X="673674.726503625" Y="1203852.47091136" Rotation="0" Name="Hoc Mon" />
+    <Label X="672700.488543618" Y="1187559.45232003" Rotation="0" Name="Binh Chanh" />
+    <Label X="689263.295068029" Y="1178283.8116439" Rotation="0" Name="Nha Be" />
+    <Label X="703695.269644403" Y="1163326.08072976" Rotation="0" Name="Can Gio" />
+    <Label X="877347.912214789" Y="1320082.08255716" Rotation="0" Name="Da Lat City" />
+    <Label X="804456.569647646" Y="1276601.80805588" Rotation="0" Name="Bao Loc Township" />
+    <Label X="880521.543859737" Y="1343622.45982294" Rotation="0" Name="Lac Duong" />
+    <Label X="888366.287702769" Y="1303360.55260261" Rotation="0" Name="Don Duong" />
+    <Label X="869284.387877282" Y="1290172.44731844" Rotation="0" Name="Duc Trong" />
+    <Label X="845666.876856432" Y="1318947.12818503" Rotation="0" Name="Lam Ha" />
+    <Label X="800809.240974802" Y="1293277.82124887" Rotation="0" Name="Bao Lam" />
+    <Label X="835919.518585113" Y="1273484.84036537" Rotation="0" Name="Di Linh" />
+    <Label X="787552.194782566" Y="1264825.5644426" Rotation="0" Name="Da Huoai" />
+    <Label X="775840.238472233" Y="1281347.02561969" Rotation="0" Name="Da Teh" />
+    <Label X="759589.220886856" Y="1291135.36519094" Rotation="0" Name="Cat Tien" />
+    <Label X="933829.850532257" Y="1285174.61420122" Rotation="0" Name="P.Rang-T.Cham Township" />
+    <Label X="913877.385817589" Y="1308259.82584417" Rotation="0" Name="Ninh Son" />
+    <Label X="945703.993665485" Y="1297538.86726276" Rotation="0" Name="Ninh Hai" />
+    <Label X="921980.772756983" Y="1272769.15689275" Rotation="0" Name="Ninh Phuoc" />
+    <Label X="701356.0497372" Y="1274334.27261425" Rotation="0" Name="Thi  Xa Dong Xoai" />
+    <Label X="716788.347225028" Y="1317141.72478507" Rotation="0" Name="Phuoc Long" />
+    <Label X="679593.83747591" Y="1315085.89136499" Rotation="0" Name="Loc Ninh" />
+    <Label X="741585.732903259" Y="1303342.31133439" Rotation="0" Name="Bu Dang" />
+    <Label X="677943.423879294" Y="1280498.44080131" Rotation="0" Name="Binh Long" />
+    <Label X="713318.523280785" Y="1271452.31236203" Rotation="0" Name="Dong Phu" />
+    <Label X="618976.449390231" Y="1254427.59983781" Rotation="0" Name="Tay Ninh Township" />
+    <Label X="608926.741686961" Y="1280052.96513664" Rotation="0" Name="Tan Bien" />
+    <Label X="637461.554996561" Y="1281895.83310501" Rotation="0" Name="Tan Chau" />
+    <Label X="640162.501481106" Y="1256763.8871975" Rotation="0" Name="DMinh Chau" />
+    <Label X="607981.673708312" Y="1250669.19131701" Rotation="0" Name="Chau Thanh" />
+    <Label X="624593.598301362" Y="1252232.83119129" Rotation="0" Name="Hoa Thanh" />
+    <Label X="624250.806670019" Y="1230559.34725548" Rotation="0" Name="Ben Cau" />
+    <Label X="637220.75277771" Y="1233775.30372026" Rotation="0" Name="Go Dau" />
+    <Label X="645998.474658486" Y="1224995.7229735" Rotation="0" Name="Trang Bang" />
+    <Label X="680830.542065411" Y="1217292.40671985" Rotation="0" Name="Thu Dau Mot Township" />
+    <Label X="675490.653802389" Y="1238568.22400396" Rotation="0" Name="Ben Cat" />
+    <Label X="698056.921875373" Y="1229004.66633838" Rotation="0" Name="Tan Uyen" />
+    <Label X="686906.502022979" Y="1209346.26916725" Rotation="0" Name="Thuan An" />
+    <Label X="658716.857969843" Y="1253594.9812178" Rotation="0" Name="Dau Tieng" />
+    <Label X="695021.089059879" Y="1251316.50787913" Rotation="0" Name="Phu Giao" />
+    <Label X="694154.128621723" Y="1206423.00928051" Rotation="0" Name="Di An" />
+    <Label X="702982.428187287" Y="1210774.55201088" Rotation="0" Name="Bien Hoa City" />
+    <Label X="759594.899927323" Y="1260901.09876466" Rotation="0" Name="Tan Phu" />
+    <Label X="749793.161570333" Y="1238859.57566003" Rotation="0" Name="Dinh Quan" />
+    <Label X="723824.20486443" Y="1243147.19219912" Rotation="0" Name="Vinh Cuu" />
+    <Label X="726534.891860708" Y="1214299.98851755" Rotation="0" Name="Thong Nhat" />
+    <Label X="740725.366350155" Y="1203781.98486822" Rotation="0" Name="Long Khanh" />
+    <Label X="762573.556312842" Y="1204796.43620535" Rotation="0" Name="Xuan Loc" />
+    <Label X="718821.575311033" Y="1193215.85533069" Rotation="0" Name="Long Thanh" />
+    <Label X="707523.452881326" Y="1181394.39111185" Rotation="0" Name="Nhon Trach" />
+    <Label X="847232.378325319" Y="1210924.74777207" Rotation="0" Name="Phan Thiet Township" />
+    <Label X="901131.630433507" Y="1257611.53907291" Rotation="0" Name="Tuy Phong" />
+    <Label X="870789.014464861" Y="1249457.85014209" Rotation="0" Name="Bac Binh" />
+    <Label X="833297.694185312" Y="1235364.54361557" Rotation="0" Name="HThuan Bac" />
+    <Label X="817753.5217207" Y="1210247.63913158" Rotation="0" Name="H.Thuan Nam" />
+    <Label X="795409.577655496" Y="1229508.28966223" Rotation="0" Name="Tanh Linh" />
+    <Label X="792490.625888775" Y="1190443.33879562" Rotation="0" Name="Ham Tan" />
+    <Label X="777451.378456876" Y="1237350.6313887" Rotation="0" Name="Duc Linh" />
+    <Label X="932360.410474482" Y="1168997.69870025" Rotation="0" Name="Phu Qui" />
+    <Label X="731976.958250714" Y="1152628.18287611" Rotation="0" Name="Vung Tau City" />
+    <Label X="738554.648223192" Y="1162472.99998808" Rotation="0" Name="Ba Ria Township" />
+    <Label X="745908.790145432" Y="1178562.56044404" Rotation="0" Name="Chau Duc" />
+    <Label X="768340.026673768" Y="1175619.70065021" Rotation="0" Name="Xuyen Moc" />
+    <Label X="728756.668037215" Y="1170284.214477" Rotation="0" Name="Tan Thanh" />
+    <Label X="749442.773444445" Y="1159469.51431854" Rotation="0" Name="Long Dat" />
+    <Label X="681439.838684739" Y="962181.069984554" Rotation="0" Name="Con Dao" />
+    <Label X="653397.866531011" Y="1164636.14111066" Rotation="0" Name="Tan An Township" />
+    <Label X="575027.64155111" Y="1197450.05842234" Rotation="0" Name="Tan Hung" />
+    <Label X="584891.677140326" Y="1206049.31983998" Rotation="0" Name="Vinh Hung" />
+    <Label X="606486.626051432" Y="1190147.53390072" Rotation="0" Name="Moc Hoa" />
+    <Label X="605274.058539085" Y="1173262.67454514" Rotation="0" Name="Tan Thanh" />
+    <Label X="628508.657165695" Y="1180169.90554814" Rotation="0" Name="Thanh Hoa" />
+    <Label X="637375.093457824" Y="1201469.24316252" Rotation="0" Name="Duc Hue" />
+    <Label X="654018.601523495" Y="1204026.49398317" Rotation="0" Name="Duc Hoa" />
+    <Label X="658604.285788793" Y="1182311.32984915" Rotation="0" Name="Ben Luc" />
+    <Label X="645951.476706687" Y="1178717.51838207" Rotation="0" Name="Thu Thua" />
+    <Label X="663495.199632399" Y="1156572.1348998" Rotation="0" Name="Chau Thanh" />
+    <Label X="664990.446761032" Y="1164761.03930287" Rotation="0" Name="Tan Tru" />
+    <Label X="675116.163279813" Y="1164643.36043856" Rotation="0" Name="Can Duoc" />
+    <Label X="682509.69029576" Y="1170373.2556239" Rotation="0" Name="Can Giuoc" />
+    <Label X="567817.185230228" Y="1155868.37225122" Rotation="0" Name="Cao Lanh Township" />
+    <Label X="581147.213510682" Y="1140570.15414127" Rotation="0" Name="Sa Dec Township" />
+    <Label X="553155.876048528" Y="1202052.85588104" Rotation="0" Name="Tan Hong" />
+    <Label X="534759.904339349" Y="1195611.14541718" Rotation="0" Name="Hong Ngu" />
+    <Label X="557346.418155705" Y="1186003.55585909" Rotation="0" Name="Tam Nong" />
+    <Label X="551856.074419237" Y="1172744.11422648" Rotation="0" Name="Thanh Binh" />
+    <Label X="587228.685340696" Y="1167610.26908173" Rotation="0" Name="Thap Muoi" />
+    <Label X="577031.849694487" Y="1159705.17871727" Rotation="0" Name="Cao Lanh" />
+    <Label X="565954.9805781" Y="1145213.08942844" Rotation="0" Name="Lap Vo" />
+    <Label X="572080.582431703" Y="1132987.53376792" Rotation="0" Name="Lai Vung" />
+    <Label X="589581.168877414" Y="1130710.99565899" Rotation="0" Name="Chau Thanh" />
+    <Label X="546896.112803947" Y="1146292.40850813" Rotation="0" Name="Long Xuyen Township" />
+    <Label X="509547.168019846" Y="1179885.56083251" Rotation="0" Name="Chau Doc Township" />
+    <Label X="510635.666053435" Y="1198940.09169264" Rotation="0" Name="An Phu" />
+    <Label X="519618.255592444" Y="1194702.45144298" Rotation="0" Name="Tan Chau" />
+    <Label X="529950.796183204" Y="1178248.05347799" Rotation="0" Name="Phu Tan" />
+    <Label X="519504.103546563" Y="1167020.25138403" Rotation="0" Name="Chau Phu" />
+    <Label X="501124.502286899" Y="1165933.09629267" Rotation="0" Name="Tinh Bien" />
+    <Label X="495544.648320449" Y="1150989.31988939" Rotation="0" Name="Tri Ton" />
+    <Label X="550438.005737275" Y="1157961.21403752" Rotation="0" Name="Cho Moi" />
+    <Label X="529096.273227618" Y="1151974.79616178" Rotation="0" Name="Chau Thanh" />
+    <Label X="528037.300589091" Y="1138186.14203432" Rotation="0" Name="Thoai Son" />
+    <Label X="649700.725236376" Y="1146249.82731051" Rotation="0" Name="My Tho City" />
+    <Label X="683351.976611565" Y="1146137.20139577" Rotation="0" Name="Go Cong Township" />
+    <Label X="634090.948676564" Y="1162966.51836747" Rotation="0" Name="Tan Phuoc" />
+    <Label X="639829.519837365" Y="1149811.91118023" Rotation="0" Name="Chau Thanh" />
+    <Label X="620587.469860826" Y="1150039.41885068" Rotation="0" Name="Cai Lay" />
+    <Label X="658486.482957314" Y="1148406.53350295" Rotation="0" Name="Cho Gao" />
+    <Label X="602893.613027365" Y="1148639.06807829" Rotation="0" Name="Cai Be" />
+    <Label X="675108.087393457" Y="1141736.52505615" Rotation="0" Name="Go Cong Tay" />
+    <Label X="-1" Y="1376406.78012807" Rotation="0" Name="Go Cong Dong" />
+    <Label X="602671.102971592" Y="1133521.55162179" Rotation="0" Name="Vinh Long Township" />
+    <Label X="606001.090236141" Y="1129996.89908482" Rotation="0" Name="Long Ho" />
+    <Label X="618192.447727817" Y="1126525.71197301" Rotation="0" Name="Mang Thit" />
+    <Label X="587503.10482118" Y="1116794.32269382" Rotation="0" Name="Binh Minh" />
+    <Label X="604005.316620057" Y="1114435.67050372" Rotation="0" Name="Tam Binh" />
+    <Label X="609459.717890838" Y="1104084.11989009" Rotation="0" Name="Tra on" />
+    <Label X="626697.17836267" Y="1113964.53895698" Rotation="0" Name="Vung Liem" />
+    <Label X="650536.41503137" Y="1131874.28420113" Rotation="0" Name="Ben Tre Township" />
+    <Label X="642969.436111577" Y="1137662.94912838" Rotation="0" Name="Chau Thanh" />
+    <Label X="628185.900679111" Y="1130624.90609272" Rotation="0" Name="Cho Lach" />
+    <Label X="646184.481128807" Y="1117967.03460148" Rotation="0" Name="Mo Cay" />
+    <Label X="660827.429488988" Y="1122974.80485731" Rotation="0" Name="Giong Trom" />
+    <Label X="680433.103063207" Y="1125586.10162354" Rotation="0" Name="Binh Dai" />
+    <Label X="674817.317255714" Y="1112928.15239343" Rotation="0" Name="Ba Tri" />
+    <Label X="669873.466513656" Y="1098308.47442515" Rotation="0" Name="Thanh Phu" />
+    <Label X="511949.681109555" Y="1109212.14667872" Rotation="0" Name="Rach Gia Township" />
+    <Label X="463135.321218681" Y="1146404.07189052" Rotation="0" Name="Ha Tien" />
+    <Label X="493443.375357293" Y="1130247.96592194" Rotation="0" Name="Hon Dat" />
+    <Label X="526590.089843405" Y="1115365.88305804" Rotation="0" Name="Tan Hiep" />
+    <Label X="518493.035368495" Y="1099193.82514136" Rotation="0" Name="Chau Thanh" />
+    <Label X="540360.034777098" Y="1095577.20958068" Rotation="0" Name="Giong Gieng" />
+    <Label X="532345.946063524" Y="1076795.7334734" Rotation="0" Name="Go Quao" />
+    <Label X="506855.485587988" Y="1083763.8510958" Rotation="0" Name="An Bien" />
+    <Label X="496082.80499428" Y="1067000.76345305" Rotation="0" Name="An Minh" />
+    <Label X="522554.75433407" Y="1057096.44784635" Rotation="0" Name="Vinh Thuan" />
+    <Label X="388219.273816406" Y="1134196.72812123" Rotation="0" Name="Phu Quoc" />
+    <Label X="-1" Y="1082957.33520831" Rotation="0" Name="Kien Hai" />
+    <Label X="-1" Y="1142735.97614187" Rotation="0" Name="Ha Tien Township" />
+    <Label X="580232.434405343" Y="1110157.15705062" Rotation="0" Name="Can Tho City" />
+    <Label X="546705.842667261" Y="1127630.40984232" Rotation="0" Name="Thot Not" />
+    <Label X="560121.387586605" Y="1113145.16817265" Rotation="0" Name="o Mon" />
+    <Label X="578181.154667575" Y="1099167.72083807" Rotation="0" Name="Chau Thanh" />
+    <Label X="579254.712064384" Y="1083288.79247246" Rotation="0" Name="Phung Hiep" />
+    <Label X="558808.431898575" Y="1083203.67862895" Rotation="0" Name="Vi Thuy" />
+    <Label X="557943.090561534" Y="1067958.02648904" Rotation="0" Name="Long My" />
+    <Label X="546806.352907851" Y="1077207.63831566" Rotation="0" Name="Vi Thanh Township" />
+    <Label X="646542.915289459" Y="1102220.34617785" Rotation="0" Name="Tra Vinh Township" />
+    <Label X="633195.557860468" Y="1102300.72551516" Rotation="0" Name="Cang Long" />
+    <Label X="649800.555279877" Y="1092889.35480425" Rotation="0" Name="Chau Thanh" />
+    <Label X="617607.025828185" Y="1090927.94662167" Rotation="0" Name="Cau Ke" />
+    <Label X="631206.665441692" Y="1083940.8016188" Rotation="0" Name="Tieu Can" />
+    <Label X="657933.705988967" Y="1081381.90384238" Rotation="0" Name="Cau Ngang" />
+    <Label X="641358.115693631" Y="1071935.82799245" Rotation="0" Name="Tra Cu" />
+    <Label X="660288.80660454" Y="1064512.32066044" Rotation="0" Name="Duyen Hai" />
+    <Label X="608012.272885374" Y="1062379.17873529" Rotation="0" Name="Soc Trang Township" />
+    <Label X="603323.520143339" Y="1085137.65612801" Rotation="0" Name="Ke Sach" />
+    <Label X="624573.735589198" Y="1061172.10841997" Rotation="0" Name="Long Phu" />
+    <Label X="591450.326052119" Y="1065391.05817258" Rotation="0" Name="My Tu" />
+    <Label X="602659.548055407" Y="1047745.77860464" Rotation="0" Name="My Xuyen" />
+    <Label X="573039.420724495" Y="1050154.02488028" Rotation="0" Name="Thanh Tri" />
+    <Label X="609047.031739154" Y="1034348.52195222" Rotation="0" Name="Vinh Chau" />
+    <Label X="583564.523446105" Y="1024884.73790912" Rotation="0" Name="Bac Lieu Township" />
+    <Label X="545294.499915333" Y="1044988.20161805" Rotation="0" Name="Hong Dan" />
+    <Label X="571550.738472261" Y="1028011.79999362" Rotation="0" Name="Vinh Loi" />
+    <Label X="544914.715446101" Y="1016230.74402204" Rotation="0" Name="Gia Rai" />
+    <Label X="520915.269985792" Y="1013759.80720356" Rotation="0" Name="Ca Mau Township" />
+    <Label X="515233.456710818" Y="1035578.57265308" Rotation="0" Name="Thoi Binh" />
+    <Label X="494337.082112037" Y="1035943.24413276" Rotation="0" Name="U Minh" />
+    <Label X="491034.330172885" Y="1009498.37491659" Rotation="0" Name="Tran Van Thoi" />
+    <Label X="496149.103714007" Y="988518.651690707" Rotation="0" Name="Cai Nuoc" />
+    <Label X="526751.999636024" Y="990357.167751808" Rotation="0" Name="Dam Doi" />
+    <Label X="500971.287076638" Y="963793.998112841" Rotation="0" Name="Ngoc Hien" />
+  </Labels>
+</MapWindow>

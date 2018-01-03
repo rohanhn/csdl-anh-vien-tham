@@ -1,0 +1,156 @@
+<Mapwin name="MapWindow GIS *" type="projectfile" version="4.3.2614" ConfigurationPath="C:\Program Files\MapWindow\default.mwcfg" ProjectProjection="+proj=utm +zone=48 +ellps=WGS84 +datum=WGS84 +units=m +no_defs " MapUnits="Meters" ShowFloatingScaleBar="False" FloatingScaleBarPosition="LowerRight" FloatingScaleBarUnit="" FloatingScaleBarForecolor="-16777216" FloatingScaleBarBackcolor="-1" MapResizeBehavior="0" ShowStatusBarCoords_Projected="True" ShowStatusBarCoords_Alternate="Lat/Long">
+  <Plugins>
+    <Plugin SettingsString="" Key="GISTools_mwGISTools" />
+  </Plugins>
+  <ApplicationPlugins PluginDir="ApplicationPlugins">
+    <Plugin SettingsString="" Key="Database_OpenHydroPluginClass" />
+    <Plugin SettingsString="" Key="mwLabeler_mwLabeler" />
+    <Plugin SettingsString="Editable=False" Key="mwIdentifier_mwIdentPlugin" />
+    <Plugin SettingsString="" Key="mwTableEditor_mwTableEditorClass" />
+  </ApplicationPlugins>
+  <Extents xMax="2533414.68420672" yMax="2874397.71467222" xMin="-1260266.53472553" yMin="542067.282283518" />
+  <Groups>
+    <Group Name="Data Layers" Expanded="True" Position="0">
+      <Image Type="">
+      </Image>
+      <Layers>
+        <Layer Name="province" Type="3" Path="province.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="65535" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="0" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="district" Type="3" Path="district.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="65535" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="2326657" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="province-admin" Type="1" Path="province-admin.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="14305038" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="3" LineStipple="0" OutLineColor="0" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="district-admin" Type="1" Path="district-admin.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="15128867" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="3" LineStipple="0" OutLineColor="0" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="elevation" Type="3" Path="elevation.shp" Tag="" LegendPicture="" Visible="True" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="318030" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="7248267" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="vlss" Type="1" Path="vlss.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="5178835" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="3" LineStipple="0" OutLineColor="0" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="slp" Type="3" Path="slp.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="11197225" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="2855288" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="roads" Type="2" Path="roads.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="14772545" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="14772545" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="landcover" Type="3" Path="landcover.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="16586417" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="14819064" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="hydro-p" Type="3" Path="hydro-p.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="13964198" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="13264356" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="hydro-l" Type="2" Path="hydro-l.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="6372883" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="6372883" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+        <Layer Name="airp" Type="1" Path="airp.shp" Tag="" LegendPicture="" Visible="False" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="10613380" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="3" LineStipple="0" OutLineColor="0" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+      </Layers>
+    </Group>
+  </Groups>
+  <PreviewMap dx="0" dy="0" xllcenter="0" yllcenter="0">
+    <Image Type="">
+    </Image>
+  </PreviewMap>
+</Mapwin>

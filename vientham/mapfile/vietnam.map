@@ -1,0 +1,64 @@
+MAP
+	#NAME vietnam
+	STATUS on
+	SIZE 500 500
+	IMAGETYPE PNG
+	IMAGECOLOR 244 244 188
+	EXTENT 101.567139 7.326586 109.251956 24.509979
+	UNITS dd
+	SHAPEPATH "C:/ms4w/Apache/htdocs/vientham"
+
+	FONTSET /ms4w/Apache/htdocs/fontset.txt
+	
+	#OUTPUTFORMAT
+     #   NAME 'AGG'
+      #  DRIVER AGG/PNG
+       #  MIMETYPE "image/png"
+        #IMAGEMODE RGB
+        #EXTENSION "png"
+#    END # outputformat
+
+	PROJECTION
+		"init=EPSG:4326"
+	END
+	WEB
+		IMAGEPATH "C:/ms4w/tmp/"
+		IMAGEURL "C:/ms4w/tmp/"
+	
+		METADATA
+			"wms_title" "WMS viet nam project"
+			"wms_onlineresource" "http://localhost:8086/cgi-bin/mapserv.exe?map=C:/ms4w/Apache/htdocs/vientham/mapfile/vietnam.map"
+			"wms_srs" "EPSG:4326"
+			"wms_enable_request" "*"
+			"gml_include_items"   "all"
+			"wms_include_items"   "all"
+			"wms_feature_info_mime_type" "text/html"
+			#  "wms_server_version" "1.1.1"
+			
+			#CONFIG FOR WFS
+			"wfs_title" "WFS viet nam"
+			"ows_encoding" "LATIN1"
+			"wfs_onlineresource" "http://localhost:8086/cgi-bin/wfs?"
+			"wfs_srs" "EPSG:4326"
+			"gml_include_items" "all"
+			"gml_featureid" "ID"
+			"wfs_enable_request" "*"
+		END
+	END #End of WEB
+
+	SYMBOL 
+     	NAME "Point" 
+     	TYPE ellipse
+     	FILLED true
+     	POINTS 
+       		1 1 
+     	END 
+   	END 
+	
+	
+	
+	#INCLUDE "layer_roads.map"
+	INCLUDE "layer_district.map"
+	INCLUDE "layer_province.map"
+	INCLUDE "DinhTanYenDinhThanhHoa.map"
+END #End of MAP file

@@ -1,0 +1,67 @@
+LAYER
+	NAME province
+	METADATA
+		"wms_title" "WMS_Layer_province"
+	END
+	TYPE polygon
+	DEBUG on
+	STATUS OFF
+	LABELITEM "prov_name"
+	INCLUDE "ConnectionDB.map"
+	DATA "geom from (select gid, reg_cd, prov_cd, regi_name, prov_name, geom from province) as tblms_province using unique gid"
+	#DATA "geom from province"
+	PROJECTION
+		"init=epsg:4326"
+		"proj=utm"
+		"zone=48"
+		"datum=WGS84"
+		"ellps=WGS84"
+		"unit=m"
+		"no_defs"
+	END
+
+	UNITS meters
+	CLASS
+      	NAME "province - active"
+		#EXPRESSION(0)
+      	MAXSCALEDENOM 50000
+      	STYLE
+        	COLOR 255 255 208
+			# tao ra duong bien cua vung
+        	OUTLINECOLOR 38 98 206
+			#WIDTH 3
+			#SYMBOL 0
+      	END
+	END
+	
+	CLASS
+      	NAME "province - normal"
+      	MINSCALEDENOM 20000
+	  	STYLE
+        	OUTLINECOLOR 110 110 110
+			#tao mau cho vung
+			COLOR 247 222 195
+      	END
+      	
+      	LABEL
+			POSITION CC
+			FORCE true
+			ALIGN center
+			ANGLE auto
+			#mau cho text nhan
+			COLOR 255 85 0
+			SHADOWCOLOR 218 218 218
+			SHADOWSIZE 2 2
+			TYPE TRUETYPE
+			ENCODING "UTF-8"
+      		FONT Arial-bold
+      		SIZE 8
+			ANTIALIAS TRUE
+			MAXSIZE 9
+			
+			PARTIALS false
+      		MINFEATURESIZE auto
+			BUFFER 4
+      	END # end of label
+	END
+END

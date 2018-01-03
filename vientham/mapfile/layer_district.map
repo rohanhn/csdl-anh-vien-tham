@@ -1,0 +1,51 @@
+LAYER
+	NAME district
+	METADATA
+		"wms_title" "WMS_Layer_district"
+	END
+	TYPE polygon
+	DEBUG on
+	STATUS off
+	INCLUDE "ConnectionDB.map"
+	DATA "geom from (select gid, id, reg_cd, prov_cd, dist_cd, regio_name, provi_name, distr_name, geom from district) as tblms_district using unique gid"
+	PROJECTION
+		"init=epsg:4326"
+		"proj=utm"
+		"zone=48"
+		"datum=WGS84"
+		"ellps=WGS84"
+		"unit=m"
+		"no_defs"
+	END
+
+	LABELITEM "distr_name"
+	
+	CLASS
+      	NAME 'district - Max'
+      	MAXSCALEDENOM 20000
+      	STYLE
+        	COLOR 244 243 240
+        	OUTLINECOLOR 229 210 191
+      	END
+	END
+	
+	CLASS
+      	NAME "district - Min"
+      	MINSCALEDENOM 20000
+
+	  	STYLE
+        	COLOR 244 243 240
+        	OUTLINECOLOR 229 210 191
+      	END
+      	
+      	LABEL
+      		FONT "Arial-bold"
+      		TYPE truetype
+      		POSITION cc
+      		SIZE 10
+      		COLOR 132 31 31
+      		PARTIALS false
+      		MINFEATURESIZE auto
+      	END # end of label
+	END
+END
