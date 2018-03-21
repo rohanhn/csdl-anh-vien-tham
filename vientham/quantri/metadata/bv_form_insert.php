@@ -77,23 +77,21 @@
                 document.getElementById("DatasetProducer").value = Production[0].getElementsByTagName("DATASET_PRODUCER_NAME")[0].childNodes[0].nodeValue;
                 document.getElementById("DatasetProducer").value = Production[0].getElementsByTagName("DATASET_PRODUCER_NAME")[0].childNodes[0].nodeValue;
                 document.getElementById("profile").value = Metadata_Id[0].getElementsByTagName("METADATA_PROFILE")[0].childNodes[0].nodeValue;				
-				document.getElementById("source_id").value = Source_Information[0].getElementsByTagName("SOURCE_ID")[0].childNodes[0].nodeValue;
-				document.getElementById("mission").value = Scene_Source[0].getElementsByTagName("MISSION")[0].childNodes[0].nodeValue;
-        document.getElementById("VIEWING_ANGLE_ALONG_TRACK").value = Scene_Source[0].getElementsByTagName("VIEWING_ANGLE_ALONG_TRACK")[0].childNodes[0].nodeValue;
-				document.getElementById("processing_level").value = Scene_Source[0].getElementsByTagName("SCENE_PROCESSING_LEVEL")[0].childNodes[0].nodeValue;
-        document.getElementById("SATELLITE_INCIDENCE_ANGLE").value = Scene_Source[0].getElementsByTagName("SATELLITE_INCIDENCE_ANGLE")[0].childNodes[0].nodeValue;
-        document.getElementById("VIEWING_ANGLE_ACROSS_TRACK").value = Scene_Source[0].getElementsByTagName("VIEWING_ANGLE_ACROSS_TRACK")[0].childNodes[0].nodeValue;
-        document.getElementById("SATELLITE_AZIMUTH_ANGLE").value = Scene_Source[0].getElementsByTagName("SATELLITE_AZIMUTH_ANGLE")[0].childNodes[0].nodeValue;
-        document.getElementById("SUN_AZIMUTH").value = Scene_Source[0].getElementsByTagName("SUN_AZIMUTH")[0].childNodes[0].nodeValue;
-        document.getElementById("SUN_ELEVATION").value = Scene_Source[0].getElementsByTagName("SUN_ELEVATION")[0].childNodes[0].nodeValue;
-        document.getElementById("REVOLUTION_NUMBER").value = Scene_Source[0].getElementsByTagName("REVOLUTION_NUMBER")[0].childNodes[0].nodeValue;
-        document.getElementById("JOB_ID").value = Production[0].getElementsByTagName("JOB_ID")[0].childNodes[0].nodeValue;
-        document.getElementById("PRODUCT_TYPE").value = Production[0].getElementsByTagName("PRODUCT_TYPE")[0].childNodes[0].nodeValue;
-        document.getElementById("PRODUCT_INFO").value = Production[0].getElementsByTagName("PRODUCT_INFO")[0].childNodes[0].nodeValue;
-        document.getElementById("DATASET_PRODUCER_NAME").value = Production[0].getElementsByTagName("DATASET_PRODUCER_NAME")[0].childNodes[0].nodeValue;
-        document.getElementById("DATASET_PRODUCER_URL").value = Production[0].getElementsByTagName("DATASET_PRODUCER_URL")[0].childNodes[0].nodeValue;
-
-                
+                document.getElementById("source_id").value = Source_Information[0].getElementsByTagName("SOURCE_ID")[0].childNodes[0].nodeValue;
+                document.getElementById("mission").value = Scene_Source[0].getElementsByTagName("MISSION")[0].childNodes[0].nodeValue;
+                document.getElementById("VIEWING_ANGLE_ALONG_TRACK").value = Scene_Source[0].getElementsByTagName("VIEWING_ANGLE_ALONG_TRACK")[0].childNodes[0].nodeValue;
+                document.getElementById("processing_level").value = Scene_Source[0].getElementsByTagName("SCENE_PROCESSING_LEVEL")[0].childNodes[0].nodeValue;
+                document.getElementById("SATELLITE_INCIDENCE_ANGLE").value = Scene_Source[0].getElementsByTagName("SATELLITE_INCIDENCE_ANGLE")[0].childNodes[0].nodeValue;
+                document.getElementById("VIEWING_ANGLE_ACROSS_TRACK").value = Scene_Source[0].getElementsByTagName("VIEWING_ANGLE_ACROSS_TRACK")[0].childNodes[0].nodeValue;
+                document.getElementById("SATELLITE_AZIMUTH_ANGLE").value = Scene_Source[0].getElementsByTagName("SATELLITE_AZIMUTH_ANGLE")[0].childNodes[0].nodeValue;
+                document.getElementById("SUN_AZIMUTH").value = Scene_Source[0].getElementsByTagName("SUN_AZIMUTH")[0].childNodes[0].nodeValue;
+                document.getElementById("SUN_ELEVATION").value = Scene_Source[0].getElementsByTagName("SUN_ELEVATION")[0].childNodes[0].nodeValue;
+                document.getElementById("REVOLUTION_NUMBER").value = Scene_Source[0].getElementsByTagName("REVOLUTION_NUMBER")[0].childNodes[0].nodeValue;
+                document.getElementById("JOB_ID").value = Production[0].getElementsByTagName("JOB_ID")[0].childNodes[0].nodeValue;
+                document.getElementById("PRODUCT_TYPE").value = Production[0].getElementsByTagName("PRODUCT_TYPE")[0].childNodes[0].nodeValue;
+                document.getElementById("PRODUCT_INFO").value = Production[0].getElementsByTagName("PRODUCT_INFO")[0].childNodes[0].nodeValue;
+                document.getElementById("DATASET_PRODUCER_NAME").value = Production[0].getElementsByTagName("DATASET_PRODUCER_NAME")[0].childNodes[0].nodeValue;
+                document.getElementById("DATASET_PRODUCER_URL").value = Production[0].getElementsByTagName("DATASET_PRODUCER_URL")[0].childNodes[0].nodeValue;                
             }
             window.onload = function () {
                 //Check the support for the File API support
@@ -358,7 +356,7 @@
 	<div class="form-group">
      <label class="control-label col-sm-2" for="ten_nhom">File Report</label>
       <div class="col-sm-8">
-        <input type="file" class="form-control" id="file_report" name="file_report" required="required" />
+        <input type="file" class="form-control" id="file_report" name="file_report" />
       </div>
     </div>
 	<!---->

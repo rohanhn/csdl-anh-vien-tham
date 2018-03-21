@@ -47,7 +47,7 @@ else
                           <thead>
                             <tr >
                               <th>STT</th>
-                              <th>Tiêu đề</th>
+                              <th>MapName</th>
                               <th>Mô tả</th>
                               <th width="100px">Quản lý</th>
                             </tr>
@@ -60,7 +60,7 @@ else
 	  ?>
                             <tr class="info">
                               <td><?php echo $i ?></td>
-                              <td><?php echo $row["raster"] ?></td>
+                              <td><?php echo $row["mapname"] ?></td>
                               <td><?php echo $row["format"] ?></td>
                               <td> <a href="bv_form_update.php?id=<?php echo $row["id_meta"] ?>">
           <span class="glyphicon glyphicon-pencil"></span>

@@ -7,8 +7,6 @@
     <meta name="author" content="">
 
     <title>Hệ QTCSDL Viễn Thám</title>
-	<!-- CSS thêm -->
-	<!--<link rel="stylesheet" href="style1.css">-->
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.css">
@@ -18,6 +16,7 @@
     <!-- Theme CSS -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/range.css" rel="stylesheet" type="text/css">
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -59,7 +58,7 @@
         var map, measureaControls, markers;
 				
 			
-        
+        //var polygon1 = array(minlon, minlat, maxlon, maxlat);
 		//alert(box_extents[1]);
 		var wms_province = new OpenLayers.Layer.WMS(
                     "Tỉnh",
@@ -69,15 +68,16 @@
                         isBaseLayer : true
                     });
             //Declare layer huyện
-            var wms_district = new OpenLayers.Layer.WMS(
+        var wms_district = new OpenLayers.Layer.WMS(
                     "Huyện",
                     "http://localhost:8086/cgi-bin/mapserv.exe?map=C:/ms4w/Apache/htdocs/vientham/mapfile/vietnam.map",
                     {
                         layers : "district",
                         isBaseLayer : false
                     });
-					
-		function endDrag(bbox) {
+		
+
+        function endDrag(bbox) {
             var bounds = bbox.getBounds();
             setBounds(bounds);
             drawBox(bounds);
@@ -115,7 +115,7 @@
       
         function setBounds(bounds) {
             if (bounds == null) {
-                document.getElementById("latlong").innerHTML = "";
+                document.getElementById("geosearch").innerHTML = "";
           
             }   else {
                     b = bounds.clone().transform(map.getProjectionObject(), new OpenLayers.Projection("EPSG:4326"))
@@ -125,11 +125,14 @@
                     maxlat = toPrecision(map.getZoom(), b.top);  
                     //lat = toPrecision(map.getZoom(), b.bottomright);
                     
-                    document.getElementById("latlong").innerHTML = minlon + ", " + minlat + ", " + maxlon + ", " + maxlat;  
+                    document.getElementById("geosearch").innerHTML = minlon + ", " + minlat + ", " + maxlon + ", " + maxlat;  
+                    // tungvu
+                    document.getElementById("geosearch").value = minlon + ", " + minlat + ", " + maxlon + ", " + maxlat;  
+                    //
                     var $polygon = array((minlon, minlat), (minlon, maxlat), (maxlon, minlat), (maxlon, maxlat));
                 }
         }       
-		
+        
 		function draw(x1, y1, x2, y2){
 			var boxes  = new OpenLayers.Layer.Boxes( "Boxes" );
 			//bounds = OpenLayers.Bounds(x1, y1, x2, y2);	
@@ -150,6 +153,69 @@
 			//map.zoomTo(map.getZoomForExtent(box_extents));
 			map.zoomToExtent(bounds);
 		}
+        
+        /*class MyPoint
+            {
+                var $lat;
+                var $lon;
+
+                function MyPoint($m_lat, $m_lon)
+                {
+                    $this->lat = floatval($m_lat);
+                    $this->lon = floatval($m_lon);
+                }
+
+            }
+
+        function IsIntersection02($point11, $point12, $point21, $point22)
+        {
+            $a_dx = $point12->lon - $point11->lon;
+            $a_dy = $point12->lat - $point11->lat;
+            $b_dx = $point22->lon - $point21->lon;
+            $b_dy = $point22->lat - $point21->lat;
+            $s = (-$a_dy * ($point11->lon - $point21->lon) + $a_dx * ($point11->lat - $point21->lat)) / (-$b_dx * $a_dy + $a_dx * $b_dy);
+            $t = (+$b_dx * ($point11->lat - $point21->lat) - $b_dy * ($point11->lon - $point21->lon)) / (-$b_dx * $a_dy + $a_dx * $b_dy);
+            if (($s >= 0 && $s <= 1 && $t >= 0 && $t <= 1)) {
+                $result = true;
+            } else {
+                $result = false;
+            }
+            return $result;
+        }
+
+        
+
+        function IsIntersection02($point11, $point12, $point21, $point22)
+          {
+              $a_dx = $row3[0] - $row1[0];
+              $a_dy = $row3[1] - $row1[1];
+              $b_dx = $row2[0] - $row4[0];
+              $b_dy = $row2[1] - $row4[1];
+              $s = (-$a_dy * ($row1[0] - $row4[0]) + $a_dx * ($row1[1] - $row4[1])) / (-$b_dx * $a_dy + $a_dx * $b_dy);
+              $t = (+$b_dx * ($row1[1] - $row4[1]) - $b_dy * ($row1[0] - $row4[0])) / (-$b_dx * $a_dy + $a_dx * $b_dy);
+              if (($s >= 0 && $s <= 1 && $t >= 0 && $t <= 1)) {
+                  $result = true;
+              } else {
+                  $result = false;
+              }
+              return $result;
+          }
+
+        var $polygon1 = $polygon;
+        
+        function IsOverlapping($polygon1, $polygon2)
+            {
+                if (count($polygon1) >= 3 && count($polygon2) >= 3) {
+                    for ($i = 0; $i < count($polygon1) - 1; $i++) {
+                        for ($k = 0; $k < count($polygon2) - 1; $k++) {
+                            if (IsIntersection02($polygon1[$i], $polygon1[$i + 1], $polygon2[$k], $polygon2[$k + 1]) != null)
+                                return true;
+                        }
+                    }
+                    return false;
+                }
+            }*/
+
 		
         function init(){
             //alert("1");
@@ -176,9 +242,9 @@
             //Dùng để tạo quản lý các lớp
             map.addControl(new OpenLayers.Control.LayerSwitcher());
             //Tạo ra thanh Pan Zoom dài
-            map.addControl(new OpenLayers.Control.PanZoomBar({
-                position : new OpenLayers.Pixel(2, 7)
-            }));
+            //map.addControl(new OpenLayers.Control.PanZoomBar({
+                //position : new OpenLayers.Pixel(2, 7)
+            //}));
             
             //HIển thị cặp tọa độ (Lat,Long)
             map.addControl(new OpenLayers.Control.MousePosition());
@@ -208,8 +274,8 @@
                     vlayer, {div: container}
                 );
             map.addControl(edit);
-			
-			var lonlat = new OpenLayers.LonLat(106.35, 21.0833333333);
+
+            var lonlat = new OpenLayers.LonLat(106.35, 21.0833333333);
             var zoom = 9;
             vectors = new OpenLayers.Layer.Vector("Vector Layer");
             map.addLayer(vectors);
@@ -235,7 +301,7 @@
             map.addControl(box);
         
             box.activate();
-            map.setCenter(lonlat, zoom);
+            map.setCenter(lonlat, zoom); 
             
             zo=new OpenLayers.Control.PanZoom({title:""});
             //zb= new OpenLayers.Control.ZoomBox({title:"Zoom Box"});
@@ -247,6 +313,7 @@
                             new OpenLayers.Control.ZoomOut({title:"Zoom Out"}),                            
                             new OpenLayers.Control.ZoomToMaxExtent({title:"Zoom Extent"}),
                             box
+                            
                             ]);
             //Khai bao bien nav la kieu lich su dieu huong
             nav= new OpenLayers.Control.NavigationHistory();

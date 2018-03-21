@@ -3,7 +3,7 @@ session_start();
 ?>
 <?php
 
-$con = pg_connect("host='localhost' port='5432' dbname='vietham' user='postgres' password='123456' ") or die('unable to connect database');
+$con = pg_connect("host='localhost' port='5432' dbname='vientham' user='postgres' password='123456' ") or die('unable to connect database');
 
 if(!isset($_SESSION["login"]) or $_SESSION["login"] != "ok"){
 header("location:login.php");}

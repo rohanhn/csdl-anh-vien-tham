@@ -18,64 +18,64 @@
           height: 24px;
           margin: 5px;
           background-color:white;
-          margin-left: 40px;
+          margin-left: 5px;
         }
         .olControlPanel .olControlMouseDefaultsItemActive {
           width: 22px;
           height: 22px;
-          margin-left: 40px;
+          margin-left: 5px;
           background-image: url(img/pan-hand-off.png)
         }
         .olControlPanel .olControlMouseDefaultsItemInactive {
           width: 22px;
           height: 22px;
-          margin-left: 40px;
+          margin-left: 5px;
           background-image: url(img/pan-hand-on.png)
         }
         .olControlPanel .olControlZoomBoxItemInactive { 
           width:  22px;  
           height: 22px;
           background-color: blue;
-          margin-left: 40px;
+          margin-left: 5px;
           background-image: url(img/zoomarea.png);
         }
         .olControlPanel .olControlZoomBoxItemActive { 
           width:  22px;  
           height: 22px;
           background-color: blue;
-          margin-left: 40px; 
+          margin-left: 5px; 
           background-image: url(img/stop.png);    
         }
         .olControlPanel .olControlZoomInItemInactive { 
           width:  22px;  
           height: 22px;
           background-image: url(img/zoom-in.png);
-          margin-left: 40px;
+          margin-left: 5px;
         }
         .olControlPanel .olControlZoomOutItemInactive { 
           width:  22px;  
           height: 22px;
           background-image:url(img/zoom-out.png);
-          margin-left: 40px;
+          margin-left: 5px;
         }
         
         .olControlPanel .olControlZoomToMaxExtentItemInactive { 
           width:  24px;  
           height: 24px;
           background-image: url(img/newmap.png);
-          margin-left: 40px;
+          margin-left: 5px;
         }
         .olControlPanel .olControlDrawFeatureItemActive {
           width:  22px;  
           height: 22px;
           background-image: url(img/draw_polygon_on.png);
-          margin-left: 40px;
+          margin-left: 5px;
         }
         .olControlPanel .olControlDrawFeatureItemInactive {
           width:  22px;  
           height: 22px;
           background-image: url(img/draw_polygon_off.png);
-          margin-left: 40px;
+          margin-left: 5px;
         }
         #olControlEditingToolbar  {
             float:left;
